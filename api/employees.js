@@ -176,7 +176,7 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-const MONGODB_URL = process.env.MONGODB_URL || '';
+const MONGODB_URL = "mongodb+srv://bsmernwala_db_user:POOmV6l3ErS0nbBK@cluster0.r2chbyu.mongodb.net/ecommerceDB?authSource=admin&replicaSet=atlas-e299sp-shard-0&w=majority&readPreference=primary&appname=MongoDB%20Compass&retryWrites=true&ssl=true";//process.env.MONGODB_URL || '';
 let dbConnected = false;
 
 async function connectToDB() {
