@@ -1,7 +1,11 @@
 {
   "name": "vercel-express-mongo-sample",
   "version": "1.0.0",
+   "engines": {
+    "node": "18.x"
+  },
   "main": "api/index.js",
+
   "scripts": {
     "start": "node api/index.js",
     "dev": "nodemon api/index.js"
